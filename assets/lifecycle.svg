@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Animated project lifecycle: requirements, architecture, development in sprints, deploy, testing with real users, feedback">
+  <defs>
+    <style>
+      .t{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+      .card{fill:#132038;stroke:#2f4a74;stroke-width:1.5}
+      .h{fill:#e6efff;font-size:15px;font-weight:600}
+      .s{fill:#7f97bd;font-size:12px}
+      .n{fill:#0b1220;font-size:13px;font-weight:700}
+      .step{animation:glow 7.2s ease-in-out infinite}
+      @keyframes glow{0%,100%{stroke:#2f4a74}8%{stroke:#5eead4}16%{stroke:#2f4a74}}
+      .arrow{stroke:#3b5d91;stroke-width:2;fill:none;stroke-dasharray:5 6;animation:dash 1.4s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-22}}
+    </style>
+  </defs>
+  <rect width="1200" height="220" rx="12" fill="#0b1220"/>
+  <g class="t">
+    <g><rect class="card step" x="30" y="60" width="170" height="100" rx="10" style="animation-delay:0s"/><circle cx="58" cy="88" r="14" fill="#8fb4ff"/><text x="58" y="93" text-anchor="middle" class="n">1</text><text x="82" y="93" class="h">Requirements</text><text x="48" y="128" class="s">user needs, scope</text></g>
+    <g><rect class="card step" x="225" y="60" width="170" height="100" rx="10" style="animation-delay:1.2s"/><circle cx="253" cy="88" r="14" fill="#8fb4ff"/><text x="253" y="93" text-anchor="middle" class="n">2</text><text x="277" y="93" class="h">Architecture</text><text x="243" y="128" class="s">modules, data model</text></g>
+    <g><rect class="card step" x="420" y="60" width="170" height="100" rx="10" style="animation-delay:2.4s"/><circle cx="448" cy="88" r="14" fill="#8fb4ff"/><text x="448" y="93" text-anchor="middle" class="n">3</text><text x="472" y="93" class="h">Sprints</text><text x="438" y="128" class="s">issues, reviews, tests</text></g>
+    <g><rect class="card step" x="615" y="60" width="170" height="100" rx="10" style="animation-delay:3.6s"/><circle cx="643" cy="88" r="14" fill="#8fb4ff"/><text x="643" y="93" text-anchor="middle" class="n">4</text><text x="667" y="93" class="h">Deploy</text><text x="633" y="128" class="s">Docker, CI, cloud</text></g>
+    <g><rect class="card step" x="810" y="60" width="170" height="100" rx="10" style="animation-delay:4.8s"/><circle cx="838" cy="88" r="14" fill="#8fb4ff"/><text x="838" y="93" text-anchor="middle" class="n">5</text><text x="862" y="93" class="h">Real users</text><text x="828" y="128" class="s">sessions, feedback</text></g>
+    <g><rect class="card step" x="1005" y="60" width="170" height="100" rx="10" style="animation-delay:6s"/><circle cx="1033" cy="88" r="14" fill="#5eead4"/><text x="1033" y="93" text-anchor="middle" class="n">6</text><text x="1057" y="93" class="h">Iterate</text><text x="1023" y="128" class="s">UX, quality, docs</text></g>
+  </g>
+  <path d="M200 110 H225 M395 110 H420 M590 110 H615 M785 110 H810 M980 110 H1005" class="arrow"/>
+  <path d="M1090 160 C1090 205 115 205 115 160" class="arrow"/>
+</svg>
