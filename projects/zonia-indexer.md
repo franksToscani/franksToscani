@@ -5,6 +5,8 @@
 *Design and development of a semantic indexer for the Web of Things in blockchain-oriented architectures.*
 Supervisor: Prof. Federico Montori · Co-supervisor: Dr. Lorenzo Gigli
 
+→ [Repository](https://github.com/franksToscani/Indexer_ZONIA_node-WoT)
+
 ## Context
 
 In IoT and Web of Things scenarios, applications need to find quickly which data producers match a request. In **ZONIA** (Zero-trust Oracle Network for IoT Applications), requests are published on-chain and the results must be available to off-chain components such as oracles.

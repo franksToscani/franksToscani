@@ -37,7 +37,7 @@ I am a Master's student in Computer Science (Software Techniques track) at the *
 
 A web app where hairdressers, braiders, beauticians and food vendors publish a showcase page and receive bookings. Deployed on **Render**, images on **S3 object storage**, email notifications, installable as a **PWA**, with booking export to Google and Apple Calendar. Designed and run by me with AI-assisted development (Claude Code); I own the requirements, architecture, code review and testing sessions with real providers.
 
-→ [Project overview](./projects/griot.md) · [Live app](https://griot-axbs.onrender.com/)
+→ [Project overview](./projects/griot.md) · [Live app](https://griot-axbs.onrender.com/) · [Repository](https://github.com/franksToscani/griot)
 
 ### [Semantic Indexer for the Web of Things (ZONIA)](./projects/zonia-indexer.md)
 
@@ -47,7 +47,7 @@ A web app where hairdressers, braiders, beauticians and food vendors publish a s
 
 Bachelor's thesis: an end-to-end prototype that listens to **on-chain events**, selects compatible **Thing Descriptions** through semantic matching and serves the results to oracles via a **REST API**. Two-level access (in-memory cache with database fallback) and benchmarks on 10,000 synthetic TDs at 1, 10 and 30 requests per minute.
 
-→ [Project overview](./projects/zonia-indexer.md)
+→ [Project overview](./projects/zonia-indexer.md) · [Repository](https://github.com/franksToscani/Indexer_ZONIA_node-WoT)
 
 ### [AS.CA.I Bologna – association website](https://github.com/franksToscani/ascai_blog)
 

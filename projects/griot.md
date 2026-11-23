@@ -2,7 +2,7 @@
 
 **Booking platform for small service providers · Personal project · Live**
 
-→ [Open the live app](https://griot-axbs.onrender.com/)
+→ [Open the live app](https://griot-axbs.onrender.com/) · [Repository](https://github.com/franksToscani/griot)
 
 ## The problem
 
